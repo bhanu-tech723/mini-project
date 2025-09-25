@@ -256,12 +256,12 @@ nav {
   background: #111;
   padding: 25px;
   border-radius: 12px;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
   box-shadow: 0 0 10px rgba(109, 213, 237, 0.2);
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 /* Contact */
@@ -318,3 +318,4 @@ footer {
       box-shadow: 0 0 15px rgba(255, 76, 139, 0.7);
 }
  
+
