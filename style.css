@@ -340,7 +340,7 @@ footer {
 }
 
 .certificate-card {
-  background: #070000;
+ background: #070000;
   border-radius: 16px;
   box-shadow: 0 6px 15px rgba(208, 202, 202, 0.1);
   width: 80%;
@@ -348,7 +348,7 @@ footer {
   padding: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+ 
 .certificate-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 15px rgba(255, 76, 139, 0.3);
@@ -383,6 +383,7 @@ footer {
   background: linear-gradient(90deg, #0056b3, #0096d6);
   transform: scale(1.05);
 }
+
 
 
 
