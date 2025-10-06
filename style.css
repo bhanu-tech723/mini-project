@@ -371,7 +371,7 @@ footer {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background: linear-gradient(90deg, #007bff, #00c6ff);
+  background: linear-gradient(90deg, #007bff, #ff4c8b);
   color: #fff;
   border-radius: 6px;
   text-decoration: none;
@@ -383,6 +383,7 @@ footer {
   background: linear-gradient(90deg, #0056b3, #0096d6);
   transform: scale(1.05);
 }
+
 
 
 
