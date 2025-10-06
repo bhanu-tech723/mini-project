@@ -380,9 +380,10 @@ footer {
 }
 
 .view-btn:hover {
-  background: linear-gradient(90deg, #0056b3, #0096d6);
+  background: linear-gradient(90deg, #0056b3, #ff4c8b);
   transform: scale(1.05);
 }
+
 
 
 
