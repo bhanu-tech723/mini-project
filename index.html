@@ -3,153 +3,773 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bhanu Prasad Naik Portfolio</title>
+
+  <meta
+    name="description"
+    content="Bhanu Prasad Naik — Full Stack Developer portfolio, projects, skills and certificates."
+  >
+
+  <title>Bhanu Prasad Naik | Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <!-- Header / Navbar -->
-  <header>
-    <nav>
-      <h2 class="logo">Bhanu<span> Prasad Naik Mudavath</span></h2>
+
+  <!-- Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <nav class="nav container">
+
+      <a href="#home" class="logo">
+        BN<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
+        <li><a class="active" href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Hi, I'm <span class="glitter-text">Bhanu Prasad Naik</span></h1>
-      <p>Full-Stack Developer | B.Tech Student @ MVR College</p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn">View My Work</a>
-        <a href="Bhanu_Prasad_Resume_Updated.pdf" class="btn cv-btn" target="_blank">Download CV</a>
-      </div>
-    </div>
-    <div class="hero-photo">
-      <img src="IMG_20240330_232727.jpg" alt="Bhanu Prasad">
-    </div>
-  </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Me</h2>
-    <div class="about-card">
-      <div class="about-text">
-        <p>
-          I'm <span class="about-name">Bhanu Prasad Naik Mudavath</span>, a passionate 
-          <strong>Full-Stack Developer</strong> and <strong>B.Tech (CSE) student</strong> at 
-          MVR College of Engineering and Technology.  
-          With skills in <b>HTML, CSS, JavaScript, and Python</b>, I enjoy building 
-          modern web applications that are both user-friendly and efficient.
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero container" id="home">
+
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">
+          <span></span>
+          Available for opportunities
         </p>
-        <p>
-          My vision is to grow as a software engineer and entrepreneur, 
-          while constantly learning and exploring new technologies.
+
+        <h1>
+          Building digital products
+          <br>
+          that <span>solve real problems.</span>
+        </h1>
+
+        <p class="hero-description">
+          I'm <strong>Bhanu Prasad Naik</strong>, a Full Stack Developer
+          and B.Tech CSE student who enjoys building clean, practical
+          web applications and AI-powered experiences.
         </p>
-        <ul class="insights">
-          <li>🎓 Pursuing B.Tech (2023–2027), with 75% academic score</li>
-          <li>💡 Completed mini project <b>“Web Diarys”</b> using full-stack development</li>
-          <li>⚡ Interested in web Designing, Figma, and canvas</li>
-          <li>🚀 Foundeing  <b>"startup ideas"</b></li>
-          <li>🌍 From Palnadu District, Andhra Pradesh, India</li>
-        </ul>
-      </div>
-    </div>
-  </section>
 
-  <!-- Skills Section -->
-  <section class="skills" id="skills">
-  <h2>My Skills</h2>
-  <div class="skill-grid">
-    <div class="skill-card">
-      <span>HTML</span>
-      <div class="progress"><div data-width="85%">85%</div></div>
-    </div>
-    <div class="skill-card">
-      <span>CSS</span>
-      <div class="progress"><div data-width="85%">80%</div></div>
-    </div>
-    <div class="skill-card">
-      <span>JavaScript</span>
-      <div class="progress"><div data-width="65%">65%</div></div>
-    </div>
-    <div class="skill-card">
-      <span>Ui/Ux</span>
-      <div class="progress"><div data-width="70%">70%</div></div>
-    </div>
-  </div>
-</section>
+        <div class="hero-buttons">
 
-  <!-- Projects Section -->
-  <section class="projects" id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Web Diarys</h3>
-        <p>A personal diary web app built with full-stack development.</p>
-      </div>
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>This glitter-style portfolio showcasing my skills and journey.</p>
-      </div>
-      <div class="project-card">
-        <h3>Coming Soon...</h3>
-        <p>More exciting projects on the way 🚀</p>
-      </div>
-    </div>
-  </section>
-  <!-- Certificates Section -->
-  <section class="certificates" id="certificates">
-    <h2>Certificates</h2>
-    <div class="certificate-container">
-      <div class="certificate-card">
-        <div class="certificate-info">
-          <h3>Full Stack Web Development</h3>
-          <p><strong>Issued by:</strong> NXT SYNC</p>
-          <p><strong>Date:</strong>18/05/2025 TO 18/08/2025</p>
-          <p>
-            Successfully completed a comprehensive Full Stack Web Development
-            course covering <b>HTML, CSS, JavaScript,  </b>, focusing on
-            modern responsive design and backend integration.
-          </p>
-          <a href="Bhanu Prasad Naik Course Completion Certificate.pdf" target="_blank" class="btn view-btn">
-            View Certificate
+          <a href="#projects" class="btn primary">
+            Explore Projects
+            <span>↗</span>
           </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
-        <button class="fixedButton">Top</button>
+          <a
+            href="Bhanu_Prasad_Resume_Updated.pdf"
+            class="btn secondary"
+            target="_blank"
+            rel="noopener"
+          >
+            View Resume
+          </a>
+
+        </div>
+
+        <div class="social-row">
+
+          <a
+            href="https://github.com/bhanu-tech723"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub ↗
+          </a>
+
+          <span>•</span>
+
+          <a href="#contact">
+            Let's connect
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Hero Image -->
+      <div class="hero-visual reveal delay-1">
+
+        <div class="image-ring">
+          <div class="image-glow"></div>
+
+          <img
+            src="IMG_20240330_232727.jpg"
+            alt="Bhanu Prasad Naik"
+          >
+        </div>
+
+        <div class="floating-card card-top">
+          <span class="floating-icon">⚡</span>
+
+          <div>
+            <strong>Full Stack</strong>
+            <small>Developer</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <span class="floating-icon">🤖</span>
+
+          <div>
+            <strong>AI Projects</strong>
+            <small>Building & learning</small>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= STATS ================= -->
+    <section class="stats container reveal">
+
+      <div>
+        <strong>2023–2027</strong>
+        <span>B.Tech Journey</span>
+      </div>
+
+      <div>
+        <strong>Full Stack</strong>
+        <span>Development Focus</span>
+      </div>
+
+      <div>
+        <strong>AI + Web</strong>
+        <span>Current Interest</span>
+      </div>
+
+      <div>
+        <strong>5+</strong>
+        <span>Projects & Builds</span>
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section container" id="about">
+
+      <div class="section-heading reveal">
+        <p class="section-label">01 / ABOUT</p>
+
+        <h2>
+          More than just code.
+        </h2>
+      </div>
+
+
+      <div class="about-grid">
+
+        <div class="about-copy reveal">
+
+          <p>
+            I'm a B.Tech CSE student at
+            <strong>MVR College of Engineering and Technology</strong>,
+            focused on becoming a strong Full Stack Developer.
+          </p>
+
+          <p>
+            I like turning ideas into useful products — from
+            student-focused tools to e-commerce applications and
+            AI-powered study solutions. I care about simple interfaces,
+            practical functionality and continuous learning.
+          </p>
+
+
+          <div class="about-points">
+
+            <div>
+              <span>🎓</span>
+
+              <p>
+                <strong>Education</strong>
+                <br>
+                B.Tech CSE · 2023–2027
+              </p>
+            </div>
+
+
+            <div>
+              <span>🚀</span>
+
+              <p>
+                <strong>Focus</strong>
+                <br>
+                Full Stack + AI-powered apps
+              </p>
+            </div>
+
+
+            <div>
+              <span>🛠️</span>
+
+              <p>
+                <strong>Approach</strong>
+                <br>
+                Build · Test · Improve
+              </p>
+            </div>
+
+
+            <div>
+              <span>💡</span>
+
+              <p>
+                <strong>Interests</strong>
+                <br>
+                Web, UI/UX & startups
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Developer Code Card -->
+        <div class="about-card reveal delay-1">
+
+          <div class="code-header">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="code-content">
+
+            <p>
+              <span class="purple">const</span>
+              developer = {
+            </p>
+
+            <p>
+              <b>name:</b>
+              <i>"Bhanu Prasad Naik"</i>,
+            </p>
+
+            <p>
+              <b>role:</b>
+              <i>"Full Stack Developer"</i>,
+            </p>
+
+            <p>
+              <b>learning:</b>
+              <i>["React", "Node.js", "AI"]</i>,
+            </p>
+
+            <p>
+              <b>mindset:</b>
+              <i>"Always building 🚀"</i>
+            </p>
+
+            <p>
+              };
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section section-alt" id="skills">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">02 / SKILLS</p>
+
+          <h2>
+            Tools I build with.
+          </h2>
+
+        </div>
+
+
+        <div class="skills-grid reveal">
+
+          <div class="skill">
+            <span class="skill-icon">&lt;/&gt;</span>
+
+            <div>
+              <strong>HTML & CSS</strong>
+              <small>Responsive interfaces</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">JS</span>
+
+            <div>
+              <strong>JavaScript</strong>
+              <small>Modern web logic</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">⚛</span>
+
+            <div>
+              <strong>React.js</strong>
+              <small>Interactive frontends</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">N</span>
+
+            <div>
+              <strong>Node.js</strong>
+              <small>Backend development</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">Ex</span>
+
+            <div>
+              <strong>Express.js</strong>
+              <small>REST APIs</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">DB</span>
+
+            <div>
+              <strong>MongoDB / MySQL</strong>
+              <small>Data & persistence</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">Git</span>
+
+            <div>
+              <strong>Git & GitHub</strong>
+              <small>Version control</small>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span class="skill-icon">UI</span>
+
+            <div>
+              <strong>Figma & UI/UX</strong>
+              <small>Design thinking</small>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section container" id="projects">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">03 / PROJECTS</p>
+
+        <h2>
+          Things I've built.
+        </h2>
+
+        <p>
+          Selected projects that show what I enjoy working on.
+        </p>
+
+      </div>
+
+
+      <div class="project-grid">
+
+
+        <!-- Tracho -->
+        <article class="project featured reveal">
+
+          <div class="project-top">
+            <span class="project-number">01</span>
+            <span class="project-tag">AI · Full Stack</span>
+          </div>
+
+          <div class="project-icon">
+            🤖
+          </div>
+
+          <h3>
+            Tracho.AI
+          </h3>
+
+          <p>
+            AI-powered study notes generator that transforms video,
+            audio or links into exam-oriented notes and
+            handwritten-style PDFs.
+          </p>
+
+          <div class="tech">
+            <span>React</span>
+            <span>FastAPI</span>
+            <span>AI</span>
+            <span>PDF</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://github.com/bhanu-tech723/Tracho.AI"
+            target="_blank"
+            rel="noopener"
+          >
+            View on GitHub ↗
+          </a>
+
+        </article>
+
+
+        <!-- Easy Cart -->
+        <article class="project reveal delay-1">
+
+          <div class="project-top">
+            <span class="project-number">02</span>
+            <span class="project-tag">Full Stack</span>
+          </div>
+
+          <div class="project-icon">
+            🛒
+          </div>
+
+          <h3>
+            Easy Cart
+          </h3>
+
+          <p>
+            A modern e-commerce application focused on product
+            browsing, shopping flows and a practical full-stack
+            architecture.
+          </p>
+
+          <div class="tech">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+          </div>
+
+          <span class="project-link muted">
+            Project showcase
+          </span>
+
+        </article>
+
+
+        <!-- CampusResult -->
+        <article class="project reveal delay-2">
+
+          <div class="project-top">
+            <span class="project-number">03</span>
+            <span class="project-tag">API · Education</span>
+          </div>
+
+          <div class="project-icon">
+            📊
+          </div>
+
+          <h3>
+            CampusResult
+          </h3>
+
+          <p>
+            A student result API and application workflow designed
+            to retrieve, process and serve academic result data.
+          </p>
+
+          <div class="tech">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>Puppeteer</span>
+          </div>
+
+          <span class="project-link muted">
+            API project
+          </span>
+
+        </article>
+
+
+        <!-- Web Diarys -->
+        <article class="project reveal">
+
+          <div class="project-top">
+            <span class="project-number">04</span>
+            <span class="project-tag">Web App</span>
+          </div>
+
+          <div class="project-icon">
+            📔
+          </div>
+
+          <h3>
+            Web Diarys
+          </h3>
+
+          <p>
+            A personal diary web application created as an early
+            full-stack project to explore real-world web development.
+          </p>
+
+          <div class="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Backend</span>
+          </div>
+
+          <span class="project-link muted">
+            Mini project
+          </span>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATES ================= -->
+    <section class="section section-alt" id="certificates">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-label">
+            04 / CERTIFICATES
+          </p>
+
+          <h2>
+            Learning in public.
+          </h2>
+
+        </div>
+
+
+        <div class="certificate-card reveal">
+
+          <div class="certificate-badge">
+            ✓
+          </div>
+
+
+          <div class="certificate-content">
+
+            <span>
+              Full Stack Web Development
+            </span>
+
+            <h3>
+              Course Completion Certificate
+            </h3>
+
+            <p>
+              Issued by <strong>NXT SYNC</strong>
+              · 18/05/2025 – 18/08/2025
+            </p>
+
+            <small>
+              Completed training focused on modern web development,
+              responsive design and backend integration.
+            </small>
+
+          </div>
+
+
+          <a
+            href="Bhanu Prasad Naik Course Completion Certificate.pdf"
+            class="btn secondary"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact-section" id="contact">
+
+      <div class="container contact-wrap reveal">
+
+
+        <div class="contact-info">
+
+          <p class="section-label">
+            05 / CONTACT
+          </p>
+
+          <h2>
+            Have an idea?
+            <br>
+            <span>Let's build it.</span>
+          </h2>
+
+          <p>
+            I'm open to internships, projects and opportunities
+            where I can learn, contribute and build something useful.
+          </p>
+
+          <a
+            class="github-link"
+            href="https://github.com/bhanu-tech723"
+            target="_blank"
+            rel="noopener"
+          >
+            github.com/bhanu-tech723 ↗
+          </a>
+
+        </div>
+
+
+        <form id="contactForm">
+
+          <label>
+            Your name
+
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            >
+          </label>
+
+
+          <label>
+            Your email
+
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            >
+          </label>
+
+
+          <label>
+            Message
+
+            <textarea
+              name="message"
+              placeholder="Tell me about your idea..."
+              required
+            ></textarea>
+          </label>
+
+
+          <button
+            type="submit"
+            class="btn primary"
+          >
+            Send Message
+            <span>↗</span>
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Back To Top -->
+  <button
+    class="back-top"
+    id="backTop"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
   <!-- Footer -->
   <footer>
-    <p>©Designed by<br>
-    Bhanu prasad Naik Mudavath<br>
-     2023-2027</p>
+
+    <div class="container footer-inner">
+
+      <span>
+        © 2026 Bhanu Prasad Naik
+      </span>
+
+      <span>
+        Built with HTML · CSS · JavaScript
+      </span>
+
+    </div>
+
   </footer>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-
